@@ -57,11 +57,11 @@ enum
 
 /* FIXME: add/remove formats you can handle */
 #define VIDEO_SRC_CAPS \
-    GST_VIDEO_CAPS_MAKE("{RGB, xRGB, BGR, BGRx}")
+    GST_VIDEO_CAPS_MAKE("{RGB, xRGB, BGR, BGRx, YUY2, I420}")
 
 /* FIXME: add/remove formats you can handle */
 #define VIDEO_SINK_CAPS \
-    GST_VIDEO_CAPS_MAKE("{RGB, xRGB, BGR, BGRx}")
+    GST_VIDEO_CAPS_MAKE("{RGB, xRGB, BGR, BGRx, YUY2, I420}")
 
 
 /* class initialization */
